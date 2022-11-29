@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+    <title>Document</title>
+    <style>
+        section:first-of-type {
+
+            background-color: #FDEFE3;
+            padding: 20px;
+        }
+
+        body {
+            padding: 40px;
+            background-color: #FF1B08;
+            color: #1B1091;
+        }
+
+        nav {
+            background-color: #FADDD1;
+            border-radius: 10px;
+
+        }
+
+        .navbar-toggler {
+
+            border-color: #1B1091;
+        }
+
+        .nav-link,
+        .navbar-brand {
+            color: #1B1091;
+        }
+
+        .help {
+            height: fit-content;
+        }
+
+        .firstdiv {
+            height: 600px;
+        }
+
+        .first {
+            height: 100%;
+        }
+
+        .second {
+            height: 80%;
+        }
+
+        .col-4,
+        col-3,
+        col-6,
+        col-5,
+        .row {
+
+            height: fit-content;
+        }
+
+        #care h1,
+        p {
+            width: 75%;
+
+        }
+
+
+        .helping {
+            height: fit-content;
+
+        }
+
+        #addImg {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        @media(max-width: 986px) {
+            .care {
+                height: fit-content;
+            }
+
+            #addImg {
+                height: 80%;
+            }
+
+            .second {
+                display: none;
+                height: 0px;
+            }
+
+            .firstdiv:last-of-type {
+                height: 0px;
+            }
+        }
+
+        @media(max-width: 786px) {
+            body {
+                padding: 5px;
+            }
+
+            section:first-of-type {
+                padding: 1px;
+            }
+        }
+
+
+
+        .link {
+            text-decoration: none;
+            color: #1B1091;
+        }
+
+        #catbord {
+            border: 5px solid #FADDD1;
+            border-radius: 40px;
+            background-color: #FADDD1;
+        }
+
+        .care {
+            border-bottom: 2px solid #FADDD1;
+        }
+
+        .circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #FDEFE3;
+            color: red;
+        }
+
+        #checkcircle {
+            bottom: 10px;
+        }
+
+        .circlepar {
+            border: 1px solid black;
+            width: fit-content;
+        }
+
+        .btn-warning {
+            background-color: #FF1B08;
+            color: black;
+        }
+
+        .btn-warning:hover {
+            background-color: #EE6D66;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container-fluid px-3 px-md-1">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/698/original/cat.png?1669741249"
+                        alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Pet club
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#care">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Contacts</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="#services">
+                                Our services
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="care">
+            <div class="container-fluid">
+                <div class="row care py-5">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="fs-1 text-center">Care of your little pets</h1>
+                        <p class="fs-3 text-center">We believe finding a reliable, professional pet sitter should be
+                            easy.
+                            So
+                            we
+                            make
+                            sure every
+                            member of our
+                            Family.</p>
+                    </div>
+                    <div class="row col-lg-6" id="addImg">
+                        <div class="col-lg-6 d-flex justify-content-center align-items-start firstdiv ps-4"><img
+                                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/701/original/martin-katler-njAgfTkYSAA-unsplash.jpg?1669741276"
+                                class="img-fluid first rounded-pill border border-4 border-white"></div>
+                        <div class="col-lg-6 d-flex justify-content-center align-items-start firstdiv"><img
+                                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/700/original/leonsa-fVNyjet1CXY-unsplash.jpg?1669741266"
+                                class="img-fluid second rounded-pill border border-4 border-white">
+                        </div>
+                    </div>
+                </div>
+                <div class="row helping py-5">
+                    <div class="col-md-3 
+                "><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/699/original/karsten-winegeart-qy0BHykaq0E-unsplash.jpg?1669741258"
+                            class="img-fluid rounded-pill border border-4 border-white">
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center py-4">
+
+                        <h2 class="fs-1">How can we help</h2>
+                        <p class="fs-3">While you are on vacation or at work can be stressful. Through
+                            our
+                            one-on-one
+                            private walks we can guarantee consistent and personal care that is equal.</p>
+                    </div>
+                    <div class="col-md-3"><img
+                            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/697/original/andrea-lightfoot-ZePrO18ieX4-unsplash.jpg?1669741240"
+                            class="img-fluid rounded-pill border border-4 border-white">
+                    </div>
+                </div>
+                <div class="container-fluid" id="catbord">
+                    <div class="row ps-4">
+                        <div class="row col-md-4 px-2 py-5">
+                            <div class="col"><img
+                                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/702/original/photo_2022-11-26_17-56-26.jpg?1669741284"
+                                    alt="author: Tatiana Litvinova"
+                                    class="img-fluid rounded-pill border border-4 border-white" id="cat"></div>
+                        </div>
+                        <div class="col-md-8 d-flex flex-column justify-content-center align-items-center"
+                            id="services">
+                            <h2 class="fs-1">Our Services</h2>
+                            <p class="fs-3">As a team of experienced pet owners and lovers we really get to know you and
+                                your pet.</p>
+                            <div class="ps-5 container-fluid d-inline-block">
+                                <div class="row">
+                                    <div class="col-1 d-flex justify-content-center align-items-center">
+                                        <div class="circle">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    fill="currentColor" class="bi bi-check d-flex align-items-center"
+                                                    viewBox="0 0 16 16" id="checkCircle">
+                                                    <path
+                                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                                                </svg></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-11  d-flex justify-content-start pt-3 align-items-center w-50">
+                                        <p class="fs-4"><a class="link"
+                                                href="https://www.google.com/search?q=pet+grooming" target="_blank">Pet
+                                                Grooming</a></p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-1  d-flex justify-content-center align-items-center">
+                                        <div class="circle">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    fill="currentColor" class="bi bi-check d-flex align-items-center"
+                                                    viewBox="0 0 16 16" id="checkCircle">
+                                                    <path
+                                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                                                </svg></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-11 d-flex justify-content-start pt-3 align-items-center w-50">
+                                        <p class="fs-4"><a href="https://www.google.com/search?q=pet+training"
+                                                class="link" target="_blank">Training</a></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1 d-flex justify-content-center align-items-center">
+                                        <div class="circle">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    fill="currentColor" class="bi bi-check d-flex align-items-center"
+                                                    viewBox="0 0 16 16" id="checkCircle">
+                                                    <path
+                                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                                                </svg></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-11 d-flex justify-content-start pt-3 align-items-center w-50">
+                                        <p class="fs-4"><a href="https://www.google.com/search?q=pet+daycare"
+                                                class="link" target="_blank">Daycare</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <form action="" id="contacts">
+                <div class="row py-5">
+                    <div class="col col-md-3"></div>
+                    <div class="col-12 col-md-6">
+                        <h2 class="text-center">Subscribe Newsletter & get Pet Club news</h2>
+                        <div class="input-group mb-3 py-3">
+
+                            <input type="email" class="form-control rounded-end rounded-5"
+                                placeholder="Enter email to subscribe" aria-label="Enter email to subscribe"
+                                aria-describedby="button-addon2" id="label" required>
+                            <button class="btn btn-outline-secondary rounded-start rounded-5 btn-warning" type="submit"
+                                id="button-addon2">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col col-md-3"></div>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p>Coded by Anna Sirotkina</p>
+        </footer>
+
+    </section>
+    <script>const button = document.querySelector("#button-addon2");
+        const input = document.querySelector("#label");
+        const form = document.querySelector("form");
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            alert("Subscription confirmed!");
+
+        })</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
